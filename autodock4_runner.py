@@ -77,7 +77,7 @@ def run_autodock4(state, ga_runs=10, pop_size=150, num_evals=2500000):
     gpf_content = f"""npts {npts[0]} {npts[1]} {npts[2]}
 gridfld {receptor_stem}.maps.fld
 spacing {spacing:.4f}
-receptor_types A C N O H HD HS OA NA SA
+receptor_types A C HD N NA OA SA
 ligand_types {" ".join(ligand_types)}
 receptor {state.receptor_pdbqt.name}
 gridcenter {cx:.4f} {cy:.4f} {cz:.4f}

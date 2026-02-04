@@ -1,0 +1,15 @@
+npts 50 50 51
+gridfld 1ENY_prepared.maps.fld
+spacing 0.5000
+receptor_types A C N O H HD HS OA NA SA
+ligand_types A Cl HD OA
+receptor 1ENY_prepared.pdbqt
+gridcenter -3.0100 35.0000 15.4500
+smooth 0.5
+map 1ENY_prepared.A.map
+map 1ENY_prepared.Cl.map
+map 1ENY_prepared.HD.map
+map 1ENY_prepared.OA.map
+elecmap 1ENY_prepared.e.map
+dsolvmap 1ENY_prepared.d.map
+dielectric -0.1465
