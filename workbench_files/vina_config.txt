@@ -1,0 +1,15 @@
+receptor = c:\Users\Administrator\Downloads\Compressed\AutoDockTools-master\AutoDockTools-master\workbench_files\1ENY_prepared.pdbqt
+ligand = c:\Users\Administrator\Downloads\Compressed\AutoDockTools-master\AutoDockTools-master\workbench_files\TCL_Butyl_prepared.pdbqt
+out = c:\Users\Administrator\Downloads\Compressed\AutoDockTools-master\AutoDockTools-master\workbench_files\vina_out.pdbqt
+
+center_x = -3.100
+center_y = 35.000
+center_z = 15.450
+
+size_x = 25.0
+size_y = 25.0
+size_z = 25.0
+
+exhaustiveness = 8
+num_modes = 9
+energy_range = 3.0
