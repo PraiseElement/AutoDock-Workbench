@@ -275,66 +275,6 @@ The only features that may require internet:
 
 ---
 
-## 📤 Uploading to GitHub
-
-### Step 1: Create a GitHub Account
-
-If you don't have one, go to [github.com](https://github.com) and sign up.
-
-### Step 2: Install Git
-
-Download and install Git from [git-scm.com](https://git-scm.com/downloads)
-
-### Step 3: Initialize Your Repository
-
-```bash
-# Navigate to this folder
-cd "C:\Users\Administrator\Downloads\Compressed\AutoDockTools-master\AutoDockTools-master"
-
-# Initialize git repository
-git init
-
-# Add all files
-git add .
-
-# Create initial commit
-git commit -m "Initial commit: AutoDock Workbench"
-```
-
-### Step 4: Create Repository on GitHub
-
-1. Go to [github.com/new](https://github.com/new)
-2. Name your repository (e.g., `AutoDock-Workbench`)
-3. Add a description
-4. Keep it **Public** or select **Private**
-5. **Don't** initialize with README (you already have one)
-6. Click **"Create repository"**
-
-### Step 5: Push to GitHub
-
-Replace `YOUR_USERNAME` with your GitHub username:
-
-```bash
-# Add remote origin
-git remote add origin https://github.com/YOUR_USERNAME/AutoDock-Workbench.git
-
-# Push to GitHub
-git branch -M main
-git push -u origin main
-```
-
-### Step 6: Verify Upload
-
-Visit `https://github.com/YOUR_USERNAME/AutoDock-Workbench` to see your repository!
-
-### ⚠️ Important Notes:
-
-- The `.exe` files are large (~3.8 MB total). GitHub allows files up to 100 MB.
-- Consider using [Git LFS](https://git-lfs.github.com/) for large files if needed.
-- Make sure to update `.gitignore` to exclude any sensitive or temporary files.
-
----
-
 ## 🔧 Troubleshooting
 
 ### Common Issues
@@ -372,7 +312,7 @@ Original repository: [github.com/Valdes-Tresanco-MS/AutoDockTools_py3](https://g
 
 The Jupyter Notebook interface and workbench enhancements were developed by:
 
-**Praize Kene Ugwu**
+**Chukwubuikem**
 
 - 📧 Email: praizekene1@gmail.com
 - 📱 Phone/WhatsApp: +2348144680669
